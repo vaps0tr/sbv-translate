@@ -1,4 +1,3 @@
-=======
 # sbv_translate
 Simple program to use Google Translate to convert English SubViewer (.sbv) files to other languages.
 =======
