@@ -1,9 +1,7 @@
-# sbv-translate
-Use Google Translate to convert English SubViewer (.sbv) files to other languages
 =======
 # sbv_translate
-
 Simple program to use Google Translate to convert English SubViewer (.sbv) files to other languages.
+=======
 
 ## Features
   * Command line way to translate an english sbv file
