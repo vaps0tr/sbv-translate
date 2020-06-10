@@ -33,4 +33,3 @@ You can install all dependencies for the  by running `pip install -r requirement
 ```
 pip install -r requirements.txt
 ```
->>>>>>> Initial commit
