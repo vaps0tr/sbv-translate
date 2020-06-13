@@ -1,5 +1,11 @@
 # sbv_translate.py
 
+# NOTE: used pyinstaller to create a single executable file
+# pyinstaller -F sbv_translate.py
+# there is a problem with pyinstaller
+# (I had to include this file for the executable to run)
+import pkg_resources.py2_warn
+
 # Import the argparse library to handle command line arguments
 import argparse
 

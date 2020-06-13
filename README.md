@@ -14,22 +14,30 @@ The following packages were used. If you are using a virtual environment you can
 ```
 Package     Version
 ----------- ----------
+altgraph    0.17
 certifi     2020.4.5.2
 chardet     3.0.4
 googletrans 2.4.0
 idna        2.9
+macholib    1.14
 numpy       1.18.5
-pip         20.1.1
+PyInstaller 3.6
 requests    2.23.0
-setuptools  47.1.1
 urllib3     1.25.9
-wheel       0.34.2
 ```
 
 #### Requirements File
-“Requirements file” containsa list of items to be installed using pip.
+“Requirements file” contains a list of items to be installed using pip.
 
 You can install all dependencies for the  by running `pip install -r requirements.txt` from the root of the project.
 ```
 pip install -r requirements.txt
+```
+
+#### Executable
+“dist” contains an MacOS executable version of the script. It was created by using PyInstaller.
+
+You can create this on Mac or Windows by running `pyinstaller -F sbv_translate.py` from the root of the project.
+```
+pyinstaller -F sbv_translate.py
 ```
